@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<style>
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    overflow-y: scroll;
+    border: 5px solid rgb(203, 92, 92);
+  
+}
+
+ .menu{
+     display: flex; /*얘가 글씨 밑으로 보내는 속성인듯? */
+     flex-flow: column nowrap;
+    margin: 10px;
+    float: left;
+    background-color: bisque;
+ }
+span{
+    text-align: center;
+    word-break: break-all;
+}
+
+img{
+width: 250px;
+height: 250px;
+}
+
+.img-thumbnail2{
+border: 1px solid rgb(224, 219, 219);
+}
+
+@media (min-width:600px){
+    .menu{
+     display: flex; /*얘가 글씨 밑으로 보내는 속성인듯? */
+     flex-flow: column nowrap;
+    margin: 10px;
+    float: left;
+    background-color: rgb(227, 64, 35);
+ }
+}
+</style>
+
+<body>
+    
+
+<section class="contrainer">
+    <div style="border: 3px solid salmon;">
+        <h1>롤링파스타 메뉴</h1>
+    </div>
+
+    <div class="menu">
+        <img src="https://rolling-pasta.com/_imgs/intro_slide3.jpg"  alt="" >
+        <span>로제파스타</span>
+    </div>
+
+    <div class="menu">
+        <img src="https://sitem.ssgcdn.com/00/84/81/item/1000456818400_i1_1100.jpg" class="img-thumbnail" alt="" >
+        <span>크림파스타</span>
+    </div>
+    
+    <div class="menu">
+        <img src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=f400_300&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20201015_176%2F1602748344810VCghW_JPEG%2FwYsmg56-RGsQLLPAeb8lN2So.jpg" class="img-thumbnail2"  alt="">
+        <span>아르비아따파스타</span>
+    </div >
+    
+    <div class="menu">
+        <img src="https://cdn.011st.com/11dims/resize/600x600/quality/75/11src/product/2990048120/B.jpg?744000000" class="img-thumbnail"  alt="">
+        <span>떠먹는 피자</span>
+    </div> 
+   
+    <div class="menu">
+        <img src="https://sitem.ssgcdn.com/15/55/21/item/1000543215515_i1_290.jpg" class="img-thumbnail"  alt="">
+        <span>오븐파스타</span>
+    </div>
+
+ 
+    
+    
+    
+    
+
+
+
+</section>
+
+</body>
+</html>
